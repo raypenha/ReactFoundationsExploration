@@ -1,15 +1,14 @@
 export function TabButton({
   children,
-  onSelect,
   isSelected,
+  ...props
 }: {
   children: React.ReactNode;
-  onSelect: () => void;
   isSelected: boolean;
-}) {
+} & React.HTMLAttributes<HTMLButtonElement>) {
   return (
     <li>
-      <button className={isSelected ? "active" : ""} onClick={onSelect}>
+      <button className={isSelected ? "active" : ""} {...props}>
         {children}
       </button>
     </li>
