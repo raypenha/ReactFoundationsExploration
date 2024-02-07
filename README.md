@@ -1,32 +1,37 @@
-# React + TypeScript + Vite
+# React Foundations Exploration
+This project is a great way to learn the basics of React development. It provides a sandbox where developers can collaborate to learn and build new features together.
+## Prerequisites
+Make sure you have Node.js and npm installed on your system.
+Here are the steps to install Node.js and npm:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Configuration
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Install the  dependencies:
+4. Run the project:
+5. Open your browser and go to http://localhost:3000 to see the project running.
 
-Currently, two official plugins are available:
+## Contributing
+We are happy to receive contributions! To contribute to this project, please follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Fork the project
 
-## Expanding the ESLint configuration
+2. Create a branch for your feature (git checkout -b feature/FeatureName)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. Commit your changes (git commit -am 'Adding a new feature')
 
-- Configure the top-level `parserOptions` property like this:
+4. Push your changes to the branch (git push origin feature/FeatureName)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+5. Open a Pull Request1.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+We kindly ask you to follow our [Code of Conduct](CODE_OF_CONDUCT.md) and ensure that your contributions adhere to our project's contribution guidelines: link_to_contribution_guidelines.md.
 
-# In React, JSX code is simply a value
+
+## Issues
+If you find any issues or have any suggestions, please [open an issue](https://github.com/raypenha/ReactFoundationsExploration/issues) in this repository.
+## License
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See the [LICENSE](LICENSE) file for more details.
+
+
+## Contact
+If you have any questions or need further information, feel free to contact me through GitHub or by email.
